@@ -1,0 +1,11 @@
+观察者模式定义了对象间一对多的关系，即一个Subject(Observable)对象可以对应多个Observers对象，当Subject对象的状态发生改变时，会通知所有
+已经向该Subject对象注册的Observers对象。
+
+观察者模式可以有两种方式：Push和Pull
+
+Push：Subject状态发生改变后通知Observers时，所调用的update方法为update(null, dataObject)，让Observer可以直接使用数据。
+Pull：Subject状态发生改变后通知Observers时，所调用的update方法为update(subject, null)，把整个Subject对象传给Observer，让其可以选
+      所需要的数据，所以该实现中Subject对象需要有对应的getter/setter方法。
+
+
+JDK中的观察者模式接口：java.util包中的Observable类(即Subject)和Observer类。
