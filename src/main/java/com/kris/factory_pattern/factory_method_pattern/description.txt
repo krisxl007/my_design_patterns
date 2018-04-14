@@ -1,0 +1,8 @@
+Factory Method - Instead of whole separate class for factory, just add one method in that class itself as a factory.
+
+***********************************
+Factory Method vs Constructor:
+
+1、创建对象时，有时需要添加一些条件判断是否应该创建，如果满足条件则返回一个实例，不满足则返回NULL，比如单例模式。构造函数做不到。
+2、工厂模式能够返回当前类的子类型。
+***********************************

@@ -1,0 +1,7 @@
+In order to use simple factory design pattern, you need at least the following classes:
+
+1. Either an Interface or an Abstract Class
+2. At least two classes that either implement or extend the interface or base class respectively
+3. The factory class itself � it should have a static method
+
+*Use case: when the logic is too complex in constructor when creating an instance
