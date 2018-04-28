@@ -1,0 +1,6 @@
+Similar to the Factory/Factory Method/Abstract Factory pattern, Builder pattern is a creation design pattern to create objects.
+Factory pattern is considering create object by one step, while builder pattern is creating object step by step.
+
+Consider to use builder pattern when hit below situation:
+1. create a complex object(with a lot of mandatory and optional variables) and you don't want multiple constructors
+2. create a immutable object
