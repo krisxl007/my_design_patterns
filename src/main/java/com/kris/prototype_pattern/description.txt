@@ -1,0 +1,5 @@
+Prototype design pattern is one of the Creational Design pattern, so it provides a mechanism of object creation.
+
+Prototype design pattern uses a master(original) object as a template, to create new objects and then modify it
+according to our needs, Prototype design pattern uses java cloning to copy the object, however whether to use
+shallow or deep copy of the Object properties depends on the requirements and its a design decision.
