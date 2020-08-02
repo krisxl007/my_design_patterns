@@ -10,7 +10,6 @@ public class LowLevelMemberStrategy implements MemberStrategy {
 
     private static final double LOW_LEVEL_MEMBER_DISCOUNT_RATE = 0.9d;
 
-    @Override
     public double calculateDiscountPrice(double basePrice) {
         return basePrice * LOW_LEVEL_MEMBER_DISCOUNT_RATE;
     }
