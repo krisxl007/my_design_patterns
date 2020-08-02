@@ -1,5 +1,5 @@
-Factory - Separate Factory class to create complex object.
+Simple Factory - Separate concrete class for a factory to create complex object.
 
-Factory Method - Instead of whole separate class for factory, just add one method in that class itself as a factory.
+Factory Method - Instead of separate concrete class for a factory, use a factory method in that the factory itself to create object.
 
-Abstract Factory - 
+Abstract Factory - On top of Simple Factory Pattern, create a set of abstract factory and use a factory method to create object.
