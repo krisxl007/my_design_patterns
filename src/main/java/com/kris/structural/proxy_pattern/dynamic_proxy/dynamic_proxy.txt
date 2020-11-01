@@ -1,0 +1,5 @@
+Dynamic Proxy Pattern: is on top of static proxy pattern, the goal is to create proxy object in runtime rather than compile time.
+
+There are 2 implementations can be used:
+    - JDK(Interface) dynamic proxy: on top of static proxy interface solution
+    - CGLIB: on top of static proxy inheritance solution

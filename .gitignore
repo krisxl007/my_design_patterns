@@ -1,0 +1,6 @@
+# ignored files
+my_design_patterns.iml
+
+# ignored folders
+.idea
+/target

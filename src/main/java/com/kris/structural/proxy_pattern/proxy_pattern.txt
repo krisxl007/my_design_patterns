@@ -1,0 +1,9 @@
+Proxy Pattern: An object(proxy object) representing another object(target object), so do not need to modify target object at all.
+
+Type of proxy pattern:
+- static proxy: solution as below, the problem is too many proxies to create and manage.
+    - implements same interface
+    - extends target object
+- dynamic proxy: do not need to create proxy object(create in runtime), only delta need to be added.
+    - JDK(Interface) proxy
+    - CGLIB proxy

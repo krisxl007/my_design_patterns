@@ -1,0 +1,3 @@
+Static Proxy Pattern: there are 2 ways to implement static proxy
+    - proxy object implements the same target object interface, need to pass target object as parameter to proxy object.
+    - proxy object extends target object.
